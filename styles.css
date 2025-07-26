@@ -1,0 +1,32 @@
+.container{
+    display: flex;        /* Use flexbox for layout */
+    /* flex-direction: row;  Arrange children in a row */
+    /* width: 100%;          Full width of the container */
+    /* height: 100vh;       Full height of the viewport */
+}
+
+.column {
+      flex: 1;              /* Each column takes 50% of space */
+      padding: 20px;
+      border: 1px solid #ccc;
+}
+
+.left {
+    background-color: #f0f0f0;
+}
+
+.right {
+    background-color: #d0f0ff;
+}
+
+#materov_img{
+    width: 30%;               /* Set image width to 30% */
+    margin: 20px auto;       /* Center the image horizontally */
+}
+
+#logo{
+    width: 100px;            /* Set logo width */
+    height: auto;            /* Maintain aspect ratio */
+    display: block;          /* Center the logo */
+    margin: 0 auto;          /* Center the logo horizontally */
+}
