@@ -1,23 +1,29 @@
+body {
+    background: linear-gradient(to bottom, #17172c 0%, #23235a 25%, #302d68 50%, #46419c 75%, #2b295c 90%, #16162b 100%);
+    color: #ffffff;         /* Set text color to white */
+}
+
 .container{
     display: flex;        /* Use flexbox for layout */
     /* flex-direction: row;  Arrange children in a row */
     /* width: 100%;          Full width of the container */
     /* height: 100vh;       Full height of the viewport */
+    /* border-radius: 10px; */
 }
 
 .column {
       flex: 1;              /* Each column takes 50% of space */
       padding: 20px;
-      border: 1px solid #ccc;
+      /* border: 1px solid #ccc; */
+      margin-bottom: 20px;
+    
 }
 
-.left {
-    background-color: #f0f0f0;
+.left, .right {
+    background-color: #17172c; /* Dark background for both columns */
 }
 
-.right {
-    background-color: #d0f0ff;
-}
+
 
 #materov_img{
     width: 30%;               /* Set image width to 30% */
