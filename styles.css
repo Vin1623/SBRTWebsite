@@ -30,9 +30,105 @@ body {
     margin: 20px auto;       /* Center the image horizontally */
 }
 
-#logo{
-    width: 100px;            /* Set logo width */
-    height: auto;            /* Maintain aspect ratio */
-    display: block;          /* Center the logo */
-    margin: 0 auto;          /* Center the logo horizontally */
+/* ...existing code... */
+#logo-link {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000; /* Make sure it stays on top */
+    text-decoration: none;
+    width: 100px;
+
+    /* Optional: Add some styling to the link */
+    background: #23235a;     
+    border-radius: 10px;
+    padding: 12px;
+    box-shadow: 0 2px 8px #0004;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hotbar styles */
+#hotbar {
+    width: 100%;
+    background: #23235a;
+    box-shadow: 0 2px 8px #0002;
+    position: relative;
+    z-index: 999;
+}
+
+.navbar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar > li {
+    position: relative;
+}
+
+.navbar > li > a {
+    display: block;
+    padding: 16px 24px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+}
+
+.navbar > li > a:hover,
+.navbar > li:hover > a {
+    background: #46419c;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background: #23235a;
+    min-width: 180px;
+    box-shadow: 0 8px 16px #0003;
+    border-radius: 0 0 8px 8px;
+    z-index: 1000;
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.dropdown-content li a {
+    color: #fff;
+    padding: 12px 20px;
+    display: block;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.dropdown-content li a:hover {
+    background: #46419c;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Social media icons */
+footer{
+    background-color: #3e744f; 
+}
+
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* space between icons */
+    padding: 16px 0;
+}
+
+.socials-icon {
+    width: 24px;
+    height: 24px;
+    margin: 0 10px;
+    transition: transform 0.2s;
+    display: block;
 }
