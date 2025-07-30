@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(to bottom, #17172c 0%, #23235a 25%, #302d68 50%, #46419c 75%, #2b295c 90%, #16162b 100%);
     color: #ffffff;         /* Set text color to white */
-    padding: 5% 10%;
+    margin: 0 10%;
 }
 
 .container{
