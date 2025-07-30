@@ -1,6 +1,7 @@
 body {
     background: linear-gradient(to bottom, #17172c 0%, #23235a 25%, #302d68 50%, #46419c 75%, #2b295c 90%, #16162b 100%);
     color: #ffffff;         /* Set text color to white */
+    padding: 5% 10%;
 }
 
 .container{
@@ -115,6 +116,13 @@ body {
 /* Social media icons */
 footer{
     background-color: #3e744f; 
+
+    padding: 48px 0;              /* Make the footer taller */
+    border-radius: 48px;           /* Large rounded corners */
+    width: 90%;                    /* Make it narrower than the page */
+    margin: 40px auto 0 auto;      /* Center it horizontally and add space above */
+    box-shadow: 0 4px 32px #0003;  /* Optional: add a soft shadow */
+
 }
 
 footer nav {
