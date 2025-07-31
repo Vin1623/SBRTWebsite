@@ -13,22 +13,36 @@ body {
 }
 
 .column {
-      flex: 1;              /* Each column takes 50% of space */
-      padding: 20px;
-      /* border: 1px solid #ccc; */
-      margin-bottom: 20px;
-    
+    flex: 1;              /* Each column takes 50% of space */
+    padding: 20px;
+    /* border: 1px solid #ccc; */
+    margin-bottom: 20px;
 }
 
 .left, .right {
     background-color: #17172c; /* Dark background for both columns */
 }
 
-
+.main-img-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
 
 #materov_img{
-    width: 30%;               /* Set image width to 30% */
+    width: 100%;               /* Set image width to 30% */
     margin: 20px auto;       /* Center the image horizontally */
+    border-radius: 20px;
+}
+
+#learn_design_build{
+    position: absolute;
+    left: 0px;
+    bottom: 10px;
+    width: 250px;      /* Adjust size as needed */
+    height: auto;
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* Optional: shadow */
 }
 
 /* ...existing code... */
