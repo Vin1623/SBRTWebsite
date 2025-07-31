@@ -16,6 +16,10 @@ body {
     margin-bottom: 50px;
 }
 
+.container-no-design{
+    display: flex; 
+}
+
 .column {
     flex: 1;              /* Each column takes 50% of space */
     padding: 20px;
@@ -37,7 +41,7 @@ h1, p{
     margin: 5px;
 }
  .title-header h1{
-    color: #17172c;
+    color: #23235a;
     text-shadow:
         1px 1px 0 #fff,
         -1px -1px 0 #fff,
@@ -51,7 +55,9 @@ h1, p{
 
 p{
     font-size: large;
-     
+}
+h1{
+    font-size: 4.0em;
 }
 
 .main-img-container {
