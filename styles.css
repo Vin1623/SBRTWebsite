@@ -2,6 +2,7 @@ body {
     background: linear-gradient(to bottom, #17172c 0%, #23235a 25%, #302d68 50%, #46419c 75%, #2b295c 90%, #16162b 100%);
     color: #ffffff;         /* Set text color to white */
     margin: 0 10%;
+    font-family: 'Albert Sans', sans-serif;
 }
 
 .container{
@@ -9,7 +10,10 @@ body {
     /* flex-direction: row;  Arrange children in a row */
     /* width: 100%;          Full width of the container */
     /* height: 100vh;       Full height of the viewport */
-    /* border-radius: 10px; */
+    background-color: #17172c; /* Dark background for both columns */
+    border-radius: 10px;       /* Rounded corners */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Optional: shadow for depth */
+    margin-bottom: 50px;
 }
 
 .column {
@@ -19,8 +23,35 @@ body {
     margin-bottom: 20px;
 }
 
-.left, .right {
-    background-color: #17172c; /* Dark background for both columns */
+.title-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   /* Vertical centering */
+    align-items: center;       /* Horizontal centering */
+    text-align: center;
+    height: 100%;              /* Fill parent height */
+    margin-bottom: 20px;       /* Space below the header */
+    
+}
+h1, p{
+    margin: 5px;
+}
+ .title-header h1{
+    color: #17172c;
+    text-shadow:
+        1px 1px 0 #fff,
+        -1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px -1px 0 #fff,
+        0 2px 0 #fff,
+        0 -2px 0 #fff,
+        2px 0 0 #fff,
+        -2px 0 0 #fff;
+ }
+
+p{
+    font-size: large;
+     
 }
 
 .main-img-container {
