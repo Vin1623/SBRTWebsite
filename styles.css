@@ -21,8 +21,8 @@ body {
 }
 
 .column {
-    flex: 1;              /* Each column takes 50% of space */
-    padding: 20px;
+    /* flex: 1;              Each column takes 50% of space */
+    padding: 15px;
     /* border: 1px solid #ccc; */
     margin-bottom: 20px;
 }
@@ -40,7 +40,8 @@ body {
 h1, p{
     margin: 5px;
 }
- .title-header h1{
+
+.title-header h1{
     color: #23235a;
     text-shadow:
         1px 1px 0 #fff,
@@ -51,7 +52,7 @@ h1, p{
         0 -2px 0 #fff,
         2px 0 0 #fff,
         -2px 0 0 #fff;
- }
+}
 
 p{
     font-size: large;
@@ -70,6 +71,7 @@ h1{
     width: 950px;               
     margin: 20px auto;       /* Center the image horizontally */
     border-radius: 20px;
+    flex: 2;
 }
 
 #learn_design_build{
