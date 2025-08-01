@@ -31,8 +31,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;   /* Vertical centering */
-    align-items: center;       /* Horizontal centering */
-    text-align: center;
+    align-items: left;       
+    text-align: left;
     height: 100%;              /* Fill parent height */
     margin-bottom: 20px;       /* Space below the header */
     
@@ -67,16 +67,16 @@ h1{
 }
 
 #materov_img{
-    width: 100%;               /* Set image width to 30% */
+    width: 950px;               
     margin: 20px auto;       /* Center the image horizontally */
     border-radius: 20px;
 }
 
 #learn_design_build{
     position: absolute;
-    left: 0px;
-    bottom: 10px;
-    width: 250px;      /* Adjust size as needed */
+    left: 10px;
+    bottom: 20px;
+    width: 30%;      /* Adjust size as needed */
     height: auto;
     border-radius: 8px; /* Optional: rounded corners */
     box-shadow: 0 2px 8px rgba(0,0,0,0.2); /* Optional: shadow */
