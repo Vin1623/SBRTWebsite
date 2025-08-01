@@ -7,6 +7,7 @@
         <meta name="description" content="The Stony Brook Robotics Team is a competitive, multidisciplinary, engineering design team at Stony Brook University.">
         <title>SBRT Website</title>
         <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;700&display=swap" rel="stylesheet">
         <script src="script.js" defer></script>
         <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
@@ -61,7 +62,7 @@
             <div class="column right">
                 <main>
                     <div class = "main-img-container">
-                        <img src="assets/materov.png" alt="materov image" id="materov_img" />
+                        <img src="assets/materov.png" alt="materov image" id="materov_img" class="team-photos" />
                         <img src="assets/learn_design_build.png" alt="Learn Design Build" id="learn_design_build" />
                     </div>
                 </main>
@@ -69,15 +70,49 @@
         </div>
 
         <div class="container">
-            <section class="column left">
-                <img src="assets/gbmsbrt.png" alt="SBRT at GBM photo"/>
-            </section>
-            <section class="column right">
+            <div class="column left">
+                <img src="assets/gbmsbrt.png" alt="SBRT at GBM photo" class="team-photos"/>
+            </div>
+            <div class="column right">
                 <h2>JOIN OUR WEEKLY GENERAL BODY MEETINGS</h2>
                 <p>From technical workshops to social events, our general body meetings are a great opportunity to network with fellow robotics members and university students across departments. Click the link below to view our event schedule for the semester!</p>
-            </section>
+            </div>
         </div>
 
+        <div class="sponsor-container">
+            <h2 class="sponsor-heading">The <strong class="green-text">Stony Brook Robotics Team</strong> is proudly sponsored by</h2>
+            <div class="sponsors">
+                <img src="assets/ceas_logo.png" alt="CEAS Logo" class="sponsor-logo" />
+                <img src="assets/ece_logo.png" alt="ECE Sponsor Logo" class="sponsor-logo" />
+                <img src="assets/mech_logo.png" alt="Mech Sponsor Logo" class="sponsor-logo" />
+                <img src="assets/usg_logo.png" alt="USG Logo" class="sponsor-logo" />
+            </div>
+        </div>
+
+        <div class="program-container">
+            <h2 class="program-header">PROGRAMS</h2>
+
+        </div>
+
+
+        <div class="carousel">
+            <div class="slides">
+                <input type="radio" name="slide" id="slide1" checked>
+                <input type="radio" name="slide" id="slide2">
+                <input type="radio" name="slide" id="slide3">
+
+                <div class="slide s1"><img src="assets/ic2024.jpeg" alt=""></div>
+                <div class="slide s2"><img src="assets/lab_guys.jpeg" alt=""></div>
+                <div class="slide s3"><img src="assets/sase_collab.JPG" alt=""></div>
+            </div>
+
+            <!-- Manual navigation -->
+            <div class="navigation-manual">
+                <label for="slide1" class="manual-btn"></label>
+                <label for="slide2" class="manual-btn"></label>
+                <label for="slide3" class="manual-btn"></label>
+            </div>
+        </div>
     
         <footer>
             <nav>
